@@ -72,3 +72,77 @@ hr.solid{
     margin-right: 25px;
     word-spacing: 10px;
 }
+
+h2 {
+    overflow: hidden;
+    display: inline;
+}
+
+#editbutton{
+    overflow: hidden;
+    display: inline;
+    width: 20px;
+    margin-left: 5px;
+}
+
+#deletebutton{
+    overflow: hidden;
+    display: inline;
+    margin-left: 5px;
+    width: 18px;
+}
+
+#description {
+font-size: 18px;
+max-width: 400px;
+margin-left: 500px;
+margin-top: 75px;
+line-height: 2;
+overflow: hidden;
+}
+
+#zoom {
+    overflow: hidden;
+    width: 300px;
+    float: left;
+    margin-top: 75px;
+}
+
+
+#category{
+    width: 500px;
+    margin-left: 50px;
+}
+
+#title{
+    font-size:12pt;
+    margin-left: 86px;
+}
+#descript{
+    height:50px;
+    font-size:12pt;
+    margin-left: 30px;
+}
+
+#location{
+    font-size:12pt;
+    margin-left: 52px;
+}
+
+#starttime{
+    width:450px;
+    margin-left: 85px;
+}
+
+#endtime{
+    width:450px;
+    margin-left: 91px;
+}
+
+#image{
+    margin-left: 73px;
+}
+
+#submit{
+    margin-left: 128px;
+}
