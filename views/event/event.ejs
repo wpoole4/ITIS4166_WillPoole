@@ -1,0 +1,18 @@
+    <body>
+      <%- include('../components/header.ejs')%>
+        <main>
+          <h2> <%= event.title %></h2>
+          <form>
+          <button type = "submit" formmethod = "GET" formaction = "/event/<%= event.id%>/edit"><img src = "/images/editbutton.png" id = "editbutton" alt = "Edit"></button>
+          <button type = "submit" formmethod = "POST" formaction = "/event/<%= event.id%>?_method=DELETE"><img src = "/images/deletebutton.png" id = "deletebutton" alt = "Delete"></button>
+          </form>
+          <div id = description>
+            <small><b>Host: </b> <%= event.hostname %> </small> <br>
+            <small><b>Location: </b><%= event.location %></small> <br>
+            <small><b>Date: </b><%= event.startdate %> to <%= event.enddate %> </small> <br>
+            <div id = "event"><b>Details: </b><%= event.details %></div>
+          </div>
+        </main>
+        <%- include('../components/footer.ejs')%>
+    </body>
+</html>

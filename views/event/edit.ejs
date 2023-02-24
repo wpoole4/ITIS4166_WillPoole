@@ -1,0 +1,31 @@
+<body>
+    <%- include('../components/header.ejs')%>
+    <main>
+        <form method = "POST" action = "/event/<%= event.id%>?_method=PUT" class="new-form">
+            <label for="title" >Title</label>
+            <input type="text" id="title" name="title" value = "<%= event.title%>" size = "57"> <br>
+            
+            <label for="details">Description</label>
+            <input type = "text" id = "details" name = "details" value = "<%= event.details%>" required size = "57"> <br>
+
+            <label for = "location">Location </label>
+            <input type = "text" id = "location" name = "location" value = "<%= event.location%>" required size = "57"> <br>
+
+            <label for="hostname">Host Name </label>
+            <input type = "text" id = "hostname" name = "hostname" value = "<%= event.hostname%>" required size = "57"> <br>
+
+            <label for="startdate">Start </label>
+            <input type="datetime-local" id="startdate" name="startdate" value = "<%= event.startdate%>" required> <br>
+            
+            <label for="enddate"> End </label>
+            <input type="datetime-local" id="enddate" name="enddate" value = "<%= event.enddate%>" required> <br>
+
+            <label for="image">Image </label>
+            <input type="file" id="image" name="image" accept="image/*"> <br>
+            
+            <input type="submit" value="Submit"> 
+          
+        </form>
+    </main>
+    <%- include('../components/footer.ejs')%>
+</body>

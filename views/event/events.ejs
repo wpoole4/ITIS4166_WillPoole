@@ -1,0 +1,56 @@
+    <body>
+        <%- include('../components/header.ejs')%>
+        <main>
+            Event List - Classes + Q&As
+            <h3>Voiceover Classes</h3>
+            <% if(events.length) {%>
+                    <%events.forEach(event=>{%>
+                        <% if(event.category == 'Class') { %>
+                            <ul>
+                                <a href = "/event/<%= event.id %>"> <li><%= event.title%></li></a>
+                            </ul>
+                     <% } %>
+                <% }); %>
+           <% } else { %>
+                <p>There are no events to display.</p>
+           <% } %>
+           <h3>Q&A Sessions</h3>
+           <% if(events.length) {%>
+            <%events.forEach(event=>{%>
+                <% if(event.category == 'Q&A') { %>
+                    <ul>
+                        <a href = "/event/<%= event.id %>"> <li><%= event.title%></li></a>
+                    </ul>
+             <% } %>
+        <% }); %>
+   <% } else { %>
+        <p>There are no events to display.</p>
+   <% } %>
+            <h3>Workouts/Workshops</h3>
+            <% if(events.length) {%>
+                <%events.forEach(event=>{%>
+                    <% if(event.category == 'Workout' || event.category == 'Workshop') { %>
+                        <ul>
+                            <a href = "/event/<%= event.id %>"> <li><%= event.title%></li></a>
+                        </ul>
+                 <% } %>
+            <% }); %>
+       <% } else { %>
+            <p>There are no events to display.</p>
+       <% } %>
+            <h3>Other Events</h3>
+            <% if(events.length) {%>
+                <%events.forEach(event=>{%>
+                    <% if(event.category == 'Other') { %>
+                        <ul>
+                            <a href = "/event/<%= event.id %>"> <li><%= event.title%></li></a>
+                        </ul>
+                    <% } %>
+            <% }); %>
+       <% } else { %>
+            <p>There are no events to display.</p>
+       <% } %>
+        </main>
+        <%- include('../components/footer.ejs')%>
+    </body>
+</html>

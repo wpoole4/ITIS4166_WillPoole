@@ -1,0 +1,157 @@
+header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: right;
+}
+
+body {
+    background-color:rgb(0, 74, 117);
+    color:chocolate;
+    font-size: 20px;
+    min-height: 50px;
+    margin-bottom:50px;
+    clear:both;
+}
+
+p {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 150px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    position: fixed;
+    height: 25px;
+    padding: 10px;
+    padding-top: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 22px;
+    background-color:black;
+}
+
+a {
+    text-decoration: none;
+    color:#50C7C7;
+    
+}
+
+.headerlink{
+    font-size: medium;
+}
+
+.logo{
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+hr.solid{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+#copyright{
+    overflow: hidden;
+    display: inline;
+}
+
+#footerlink{
+    margin-left:25px;
+    word-spacing: 10px;
+    overflow: hidden;
+    display: inline;
+}
+
+#social{
+    overflow: hidden;
+    display: inline;
+    float: right;
+    margin-right: 25px;
+    word-spacing: 10px;
+}
+
+h2 {
+    overflow: hidden;
+    display: inline;
+}
+
+#editbutton{
+    overflow: hidden;
+    display: inline;
+    width: 20px;
+    margin-left: 5px;
+}
+
+#deletebutton{
+    overflow: hidden;
+    display: inline;
+    margin-left: 5px;
+    width: 18px;
+}
+
+#description {
+font-size: 18px;
+max-width: 400px;
+margin-left: 500px;
+margin-top: 75px;
+line-height: 2;
+overflow: hidden;
+}
+
+#zoom {
+    overflow: hidden;
+    width: 300px;
+    float: left;
+    margin-top: 75px;
+}
+
+
+#category{
+    width: 500px;
+    margin-left: 50px;
+}
+
+#title{
+    font-size:12pt;
+    margin-left: 86px;
+}
+#details{
+    height:50px;
+    font-size:12pt;
+    margin-left: 30px;
+}
+
+#location{
+    font-size:12pt;
+    margin-left: 52px;
+}
+
+#hostname{
+     font-size:12pt;
+     margin-left: 32px;
+}
+
+#startdate{
+    width:450px;
+    margin-left: 85px;
+}
+
+#enddate{
+    width:450px;
+    margin-left: 91px;
+}
+
+#image{
+    margin-left: 73px;
+}
+
+#submit{
+    margin-left: 128px;
+}
