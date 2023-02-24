@@ -2,6 +2,16 @@
     <%- include('../components/header.ejs')%>
     <main>
         <form method = "POST" action = "/event/<%= event.id%>?_method=PUT" class="new-form">
+            <label for = "category">Category </label>
+            <select id = "category" name = "category" required>
+                <option value="" disabled selected>-- Select a Category -- </option>
+                <option value = "Class">Class</option>
+                <option value = "Q&A">Q&A</option>
+                <option value = "Workout">Workout</option>
+                <option value = "Workshop">Workshop</option>
+                <option value = "Other">Other</option>
+            </select> <br>
+
             <label for="title" >Title</label>
             <input type="text" id="title" name="title" value = "<%= event.title%>" size = "57"> <br>
             
