@@ -5,14 +5,14 @@ const upload = multer({ dest: 'public/images/' })
 
 const events = [
 {
-        id: '1',
-        category: 'Class',
-        title: 'Voice Acting 101 - Fundamentals of Voice Acting',
-        location: 'Zoom',
-        hostname: 'Will Poole ft. Mark New',
-        startdate: DateTime.fromISO('2023-05-22T20:30:00').toLocaleString(DateTime.DATETIME_MED),
-        enddate: DateTime.fromISO('2023-05-22T23:30:00').toLocaleString(DateTime.DATETIME_MED),
-        details: 'Learn the fundamentals of voice acting. The industry, techniques for beginners, auditions, and more!',
+    id: '1',
+    category: 'Class',
+    title: 'Voice Acting 101 - Fundamentals of Voice Acting',
+     location: 'Zoom',
+     hostname: 'Will Poole ft. Mark New',
+     startdate: DateTime.fromISO('2023-05-22T20:30:00').toLocaleString(DateTime.DATETIME_MED),
+    enddate: DateTime.fromISO('2023-05-22T23:30:00').toLocaleString(DateTime.DATETIME_MED),
+    details: 'Learn the fundamentals of voice acting. The industry, techniques for beginners, auditions, and more!',
 
 },
 {
@@ -136,7 +136,6 @@ exports.save = function (event) {
     event.id = uuidv4();
     event.startdate = DateTime.fromISO(event.startdate).toLocaleString(DateTime.DATETIME_MED);
     event.enddate = DateTime.fromISO(event.enddate).toLocaleString(DateTime.DATETIME_MED);
-    event.image = "./images"
     events.push(event);
 
 };

@@ -6,6 +6,7 @@
           <button type = "submit" formmethod = "GET" formaction = "/event/<%= event.id%>/edit"><img src = "/images/editbutton.png" id = "editbutton" alt = "Edit"></button>
           <button type = "submit" formmethod = "POST" formaction = "/event/<%= event.id%>?_method=DELETE"><img src = "/images/deletebutton.png" id = "deletebutton" alt = "Delete"></button>
           </form>
+          <img src = "<%= event.image %>" id = "image" alt = "Image Failed to Load">
           <div id = description>
             <small><b>Host: </b> <%= event.hostname %> </small> <br>
             <small><b>Location: </b><%= event.location %></small> <br>
