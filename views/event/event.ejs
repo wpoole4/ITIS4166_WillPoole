@@ -1,17 +1,22 @@
     <body>
       <%- include('../components/header.ejs')%>
         <main>
-          <h2> <%= event.title %></h2>
-          <form>
-          <button type = "submit" formmethod = "GET" formaction = "/event/<%= event.id%>/edit"><img src = "/images/editbutton.png" id = "editbutton" alt = "Edit"></button>
-          <button type = "submit" formmethod = "POST" formaction = "/event/<%= event.id%>?_method=DELETE"><img src = "/images/deletebutton.png" id = "deletebutton" alt = "Delete"></button>
+          <h2> <%= event.title %></h2> <br>
+          Going?
+          <form action="/event/<%=event._id%>/rsvp" method ="POST">
+            <input type = "submit" name = "status" value = "Yes">
+            <input type = "submit" name = "status" value = "No">
+            <input type = "submit" name = "status" value = "Maybe">
           </form>
-          <img src = "<%= event.image %>" id = "image" alt = "Image Failed to Load">
+          <img src = "<%= event.image %>"  alt = "Image Failed to Load" class = "eventimage">
           <div id = description>
-            <small><b>Host: </b> <%= event.hostname %> </small> <br>
+            <small><b>Host: </b> <%= event.hostname.firstName + ' ' + event.hostname.lastName %> </small> <br>
             <small><b>Location: </b><%= event.location %></small> <br>
             <small><b>Date: </b><%= event.startdate %> to <%= event.enddate %> </small> <br>
             <div id = "event"><b>Details: </b><%= event.details %></div>
+            <% if (rsvp.length) {%>
+            <p>RSVP Amount: <%=rsvp.length%></p>
+          <%}%>
           </div>
         </main>
         <%- include('../components/footer.ejs')%>

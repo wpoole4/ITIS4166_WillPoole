@@ -1,0 +1,31 @@
+<%- include('../components/header.ejs')%>
+    <h2>Welcome, <%=user.firstName%></h2>
+    <%if(event.length) {%>
+        <div class = "profileeventlist">
+        <h3>My Events:</h3>
+        <%event.forEach(event => {%>
+            <a class = "listedevent" href = '/event/<%= event.id%>'><%=event.title%></a>
+            <form>
+            <button type = "submit" formmethod = "GET" formaction = "/event/<%= event.id%>/edit"><img src = "/images/editbutton.png" id = "editbutton" alt = "Edit"></button>
+            <button type = "submit" formmethod = "POST" formaction = "/event/<%= event.id%>?_method=DELETE"><img src = "/images/deletebutton.png" id = "deletebutton" alt = "Delete"></button>
+            </form>
+        <%});
+    } else {%>
+        <p>You have not created any events</p>
+    <%}%>
+</div>
+
+
+<%if(rsvp.length>0) {%>
+    <div class = "profilersvplist">
+        <h3>My RSVPs: </h3>
+        <%rsvp.forEach(rsvp => {%>
+            <p class = "listedrsvp"><%=rsvp.event.title%></p>
+            Going? <%=rsvp.status%>
+        <%});
+    } else {%>
+    <p>You have no RSVPs</p>
+<%}%> 
+</div>
+
+    <%- include('../components/footer.ejs')%>

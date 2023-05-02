@@ -1,7 +1,7 @@
 <body>
     <%- include('../components/header.ejs')%>
     <main>
-        <form method = "POST" action = "/event/<%= event.id%>?_method=PUT" class="new-form">
+        <form method = "POST" action = "/event/<%= event.id%>?_method=PUT" class="new-form" enctype="multipart/form-data">
             <label for = "category">Category </label>
             <select id = "category" name = "category" required>
                 <option value="" disabled selected>-- Select a Category -- </option>
@@ -21,9 +21,6 @@
             <label for = "location">Location </label>
             <input type = "text" id = "location" name = "location" value = "<%= event.location%>" required size = "57"> <br>
 
-            <label for="hostname">Host Name </label>
-            <input type = "text" id = "hostname" name = "hostname" value = "<%= event.hostname%>" required size = "57"> <br>
-
             <label for="startdate">Start </label>
             <input type="datetime-local" id="startdate" name="startdate" value = "<%= event.startdate%>" required> <br>
             
@@ -31,7 +28,7 @@
             <input type="datetime-local" id="enddate" name="enddate" value = "<%= event.enddate%>" required> <br>
 
             <label for="image">Image </label>
-            <input type="file" id="image" name="image" accept="image/*"> <br>
+            <input type="file" id="image" name="image" accept="image/*" required> <br>
             
             <input type="submit" value="Submit"> 
           

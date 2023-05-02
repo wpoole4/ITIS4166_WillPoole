@@ -1,7 +1,7 @@
     <body>
         <%- include('../components/header.ejs')%>
         <main>
-            <form action = '/event/events' method = 'POST' class="new-form">
+            <form action = '/event/events' enctype="multipart/form-data" method = 'POST' class="new-form">
                 <label for = "category">Category </label>
                 <select id = "category" name = "category" required>
                     <option value="" disabled selected>-- Select a Category -- </option>
@@ -17,14 +17,12 @@
                 <input type = "text" id = "details" name = "details" placeholder = "Insert Description Here" required size = "57"> <br>
                 <label for = "location">Location </label>
                 <input type = "text" id = "location" name = "location" placeholder = "Insert Location" required size = "57"> <br>
-                <label for="hostname">Host Name </label>
-                <input type = "text" id = "hostname" name = "hostname" placeholder = "Insert Host(s)" required size = "57"> <br>
                 <label for="startdate">Start </label>
                 <input type="datetime-local" id="startdate" name="startdate" required> <br>
                 <label for="enddate"> End </label>
                 <input type="datetime-local" id="enddate" name="enddate" required> <br>
                 <label for="image">Image </label>
-                <input type="file" id="image" name="image" accept="image/*"> <br>
+                <input type="file" id="image" name="image" accept="image/*" required> <br>
                 <input type = "submit" id = "submit" value="Submit">
             </form>
         </main>

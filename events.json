@@ -1,0 +1,277 @@
+[{
+  "_id": {
+    "$oid": "641d4e9b44cb00e0fbfe6e2d"
+  },
+  "category": "Class",
+  "title": "Voice Acting 101 - Fundamentals of Voice Acting",
+  "location": "Zoom",
+  "hostname": "Will Poole ft. Mark New",
+  "startdate": "2023-03-31T10:30",
+  "enddate": "2023-03-31T14:30",
+  "details": "Learn the fundamentals of voice acting. The industry, techniques for beginners, auditions, and more!",
+  "image": "/images/image-1679642267932-412334903.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642267937"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642267937"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d4ffc44cb00e0fbfe6e32"
+  },
+  "category": "Class",
+  "title": "Commercial Voiceover 101 - Intro to  Commercial Acting",
+  "location": "Discord",
+  "hostname": "Will Poole ft. Daniel Slant",
+  "startdate": "2023-04-07T10:30",
+  "enddate": "2023-04-07T14:30",
+  "details": "Learn about commercial voice over and how to approach a commercial script!",
+  "image": "/images/image-1679642620141-160984009.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642620143"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642620143"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d504944cb00e0fbfe6e36"
+  },
+  "category": "Class",
+  "title": "Voice Acting 201 - Intermediate Voice Acting",
+  "location": "Zoom",
+  "hostname": "Will Poole ft. John Dunley",
+  "startdate": "2023-04-14T10:30",
+  "enddate": "2023-04-14T14:30",
+  "details": "Take voice acting to a new level. Feedback is harsher, techniques more advanced, and topics more in-depth. Only take this if you have taken the first class.",
+  "image": "/images/image-1679642697484-561147786.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642697487"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642697487"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d50aa44cb00e0fbfe6e3a"
+  },
+  "category": "Q&A",
+  "title": "Remote Voice-over Q&A ",
+  "location": "Discord",
+  "hostname": "Will Poole ft. John New",
+  "startdate": "2023-04-10T18:30",
+  "enddate": "2023-04-10T20:30",
+  "details": "During this Q&A session, ask any questions about remote recording in VO! Ask questions about home studios, remote opportunities, and more!",
+  "image": "/images/image-1679642794149-417394972.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642794150"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642794150"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d50f244cb00e0fbfe6e3e"
+  },
+  "category": "Q&A",
+  "title": "Voiceover Industry Q&A",
+  "location": "Discord",
+  "hostname": "Will Poole ft. John Dunley",
+  "startdate": "2023-03-26T18:30",
+  "enddate": "2023-03-26T20:30",
+  "details": "During this Q&A session, ask any questions about the voiceover industry. This includes questions about your cover letter/resume, questions about agencies, and more!",
+  "image": "/images/image-1679642866623-213096837.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642866625"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642866625"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d513e44cb00e0fbfe6e41"
+  },
+  "category": "Q&A",
+  "title": "Voiceover Expenses (Taxes/Equipment)",
+  "location": "Zoom",
+  "hostname": "Will Poole ft. Kylie Ariel",
+  "startdate": "2023-04-16T14:30",
+  "enddate": "2023-04-16T18:30",
+  "details": "During this Q&A session, ask any questions about how to budget when getting into VO! This includes questions about tax forms, equipment expenses, and more!",
+  "image": "/images/image-1679642942042-774110985.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642942045"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642942045"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d517244cb00e0fbfe6e44"
+  },
+  "category": "Workout",
+  "title": "Character Acting Workout",
+  "location": "Zoom",
+  "hostname": "Will Poole",
+  "startdate": "2023-04-30T15:30",
+  "enddate": "2023-03-24T18:30",
+  "details": "Workout your character voices here!",
+  "image": "/images/image-1679642994265-877910502.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679642994268"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679642994268"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d51d744cb00e0fbfe6e47"
+  },
+  "category": "Workshop",
+  "title": "Voiceover Workshop - Commercial Acting",
+  "location": "Zoom",
+  "hostname": "Will Poole ft. Kylie Ariel",
+  "startdate": "2023-05-07T18:30",
+  "enddate": "2023-05-07T21:30",
+  "details": "Bring your own commercial scripts and auditions for practice!",
+  "image": "/images/image-1679643095744-741047693.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679643095745"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679643095745"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d521e44cb00e0fbfe6e4a"
+  },
+  "category": "Workshop",
+  "title": "Voiceover Workshop - Audiobooks",
+  "location": "Zoom",
+  "hostname": "Will Poole",
+  "startdate": "2023-05-26T10:30",
+  "enddate": "2023-05-26T14:30",
+  "details": "Bring your own material and lets practice audio book reads!",
+  "image": "/images/image-1679643166934-57105938.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679643166936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679643166936"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d525044cb00e0fbfe6e4d"
+  },
+  "category": "Other",
+  "title": "Hangout w/ Voice Actors",
+  "location": "Discord",
+  "hostname": "Will Poole",
+  "startdate": "2023-04-05T21:30",
+  "enddate": "2023-04-05T23:30",
+  "details": "Lets talk with one another and hang out!",
+  "image": "/images/image-1679643216125-563270824.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679643216127"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679643216127"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d529644cb00e0fbfe6e50"
+  },
+  "category": "Other",
+  "title": "Improv, Improv, and more Improv!",
+  "location": "Zoom",
+  "hostname": "Will Poole ft. Mark New",
+  "startdate": "2023-06-28T19:30",
+  "enddate": "2023-06-28T22:30",
+  "details": "During this session, we will just be playing improv games and working on improv in general",
+  "image": "/images/image-1679643286429-843636308.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679643286432"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679643286432"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641d52ca44cb00e0fbfe6e53"
+  },
+  "category": "Other",
+  "title": "Hangout w/ Voice Actors - 2nd Meeting",
+  "location": "Discord",
+  "hostname": "Will Poole",
+  "startdate": "2023-04-12T21:30",
+  "enddate": "2023-04-12T23:30",
+  "details": "Lets chat some more!",
+  "image": "/images/image-1679643338812-134901809.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1679643338813"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1679643338813"
+    }
+  },
+  "__v": 0
+}]

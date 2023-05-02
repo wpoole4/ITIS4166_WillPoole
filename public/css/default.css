@@ -83,35 +83,22 @@ h2 {
 }
 
 #editbutton{
-    overflow: hidden;
-    display: inline;
-    width: 20px;
-    margin-left: 5px;
+    width: 10px;
+    margin: 0 2px;
 }
 
 #deletebutton{
-    overflow: hidden;
-    display: inline;
-    margin-left: 5px;
-    width: 18px;
+    width: 10px;
 }
 
 #description {
 font-size: 18px;
 max-width: 400px;
-margin-left: 500px;
+margin-left: 300px;
 margin-top: 75px;
 line-height: 2;
 overflow: hidden;
 }
-
-#zoom {
-    overflow: hidden;
-    width: 300px;
-    float: left;
-    margin-top: 75px;
-}
-
 
 #category{
     width: 500px;
@@ -149,9 +136,51 @@ overflow: hidden;
 }
 
 #image{
+    width: 200px;
     margin-left: 73px;
 }
 
 #submit{
     margin-left: 128px;
 }
+
+.user-form {
+    display: grid;
+    grid-template-columns: 110px 200px;
+    row-gap: 0.5rem;
+  }
+
+.success {
+    background: rgba(108, 192, 112, 0.7);
+    color: #fff;
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    padding: 0.5rem 0;
+  
+  }
+  
+  .error {
+    background: rgba(255, 102, 51, 0.7);
+    color: #fff;
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .eventimage{
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .profileeventlist, .profilersvplist{
+    max-width: 400px;
+    overflow: hidden;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    margin:0 auto;    
+    display:block;
+  }
